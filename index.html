@@ -11,7 +11,46 @@
         Practica de Figuras
     </h1>
 
+    <section>
+        <form action="">
+            <h2>
+                Calculo de parametro
+            </h2>
+            <br>
+            <label for="forma"> Forma Geometrica</label>
+            <select id = "forma">
+                <option value="c"> Cuadrado</option>
+                <option value="t"> Triangulo</option>
+                <option value="r"> Circulo</option>
+            </select>
+            <br>
+            <br>
+            <label for="lado1"> Ingrese el Lado 1</label>
+            <input type="number" id="lado1">
+            <br>
+            <br>
+            <label for="lado2"> Ingrese el Lado 2</label>
+            <input type="number" id="lado2">
+            <br>
+            <br>
+            <label for="lado3"> Ingrese el Lado 3</label>
+            <input type="number" id="lado3">
+            <br>
+            <br>
+            <label for="altura"> Altura</label>
+            <input type="number" id="altura">
+            <br>
+            <br>
+            <button type="button" onclick="CalcularPerimetro()">
+                Calcular Perimetro
+            </button> 
+            <button type="button" onclick="CalcularArea()">
+                Calcular Area
+            </button>
+        </form>
+    </section>
 
-    <script src="./graficos.js"></script>
+     <!--<script src="./graficos.js"></script> -->
+    <script src="./funcGraficos.js"></script>
 </body>
 </html>
